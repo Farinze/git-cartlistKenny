@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3ee;
+    padding-bottom: 20px;
+}
+
+.top {
+    background: rgb(14, 3, 3);
+    color: #F5F5DC;
+    height: calc(100vh - 100px);
+}
+
+.top-b {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    text-align: center;
+}
+
+.top-b .left h3 {
+    font-size: 4rem;
+}
+
+.top-b .left button {
+    color: #F5F5DC;
+    font-size: 1.3rem;
+    background-color: brown;
+    border: none;
+    padding: 3px 12px;
+    border-radius: 999px;
+    margin-top: 30px;
+}
+
+.top .right {
+    margin-left: auto;
+}
+
+.top .right img {
+    width: 600px;
+    border-radius: 50%;
+    
+}
+
+.bottom {
+    margin-top: 150px;
+}
+
+.bottom .coffee-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom .coffee-list .coffee-cont {
+    width: 33%;
+    min-width: 33%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.bottom .coffee-list .coffee-cont img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 250px;
+}
+
+.bottom .coffee-list .coffee-cont .add {
+    background: rgb(68, 21, 21);
+    color: #F5F5DC;
+    border: none;
+    padding: 3px 12px;
+    border-radius: 999px;
+    margin-top: 10px;
+}
+
+
+
+.cart {
+    width: 400px;
+}
+
+.cart-list .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.cart-list .item img {
+    width: 50px;
+    height: 50px;
+}
+
+.cart-list .item .remove {
+    background-color: red;
+    color: wheat;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.li {
+    border-bottom: 1px solid rgb(70, 19, 19);
+    padding-bottom: 8px;
+}
+
+.counter {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.counter button {
+    background-color: brown;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
